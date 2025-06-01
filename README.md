@@ -1,12 +1,8 @@
-# React + Vite
+Ini adalah Bioskop website yang dibangun menggunakan teknologi react js, tailwind css, fontawesome, context api, react-router-dom.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Terdapat halaman edit film yang terhubung langsung dengan mock api yang disediakan oleh mockapi.io, didalam halamannya kita bisa melakukan create, update dan delete, sedangkan
+untuk menampilkan filmnya kami menggunakan read.
 
-Currently, two official plugins are available:
+Terdapat juga fitur mencari film yang memanfaatkan api public dari The Movie Database untuk mencari film berdasarkan film yang kita input.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Kita juga bisa berlangganan di website ini, untuk berlangganan bisa ke halaman profil dan tekan tombol mulai berlangganan dan beli langganan sesuai yang anda butuhkan.
