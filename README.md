@@ -16,7 +16,7 @@ Chill Cinema adalah aplikasi web sederhana berbasis **React.js** yang menampilka
 - **React Router** – Navigasi antar halaman
 - **Axios** – Untuk pengambilan data dari API
 - **Mock API** – Untuk menyimulasikan data film
-- **CSS / Tailwind CSS** – Untuk styling antarmuka (tergantung implementasi)
+- **CSS / Tailwind CSS** – Untuk styling antarmuka 
 
 ---
 
