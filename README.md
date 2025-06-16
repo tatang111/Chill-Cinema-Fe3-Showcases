@@ -1,8 +1,36 @@
-Ini adalah Bioskop website yang dibangun menggunakan teknologi react js, tailwind css, fontawesome, context api, react-router-dom.
+# 🎬 Chill Cinema – Frontend Movie Showcase App
 
-Terdapat halaman edit film yang terhubung langsung dengan mock api yang disediakan oleh mockapi.io, didalam halamannya kita bisa melakukan create, update dan delete, sedangkan
-untuk menampilkan filmnya kami menggunakan read.
+Chill Cinema adalah aplikasi web sederhana berbasis **React.js** yang menampilkan daftar film dari API. Dibangun untuk tujuan pembelajaran dan portofolio, proyek ini menekankan penggunaan komponen modular, pengambilan data dari API (mock), serta UI yang bersih dan responsif.
 
-Terdapat juga fitur mencari film yang memanfaatkan api public dari The Movie Database untuk mencari film berdasarkan film yang kita input.
+---
 
-Kita juga bisa berlangganan di website ini, untuk berlangganan bisa ke halaman profil dan tekan tombol mulai berlangganan dan beli langganan sesuai yang anda butuhkan.
+## 🚀 Live Demo
+
+🔗 [Lihat di Vercel](https://chill-cinema-fe3-showcases.vercel.app/)
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – Library utama untuk membangun UI
+- **React Router** – Navigasi antar halaman
+- **Axios** – Untuk pengambilan data dari API
+- **Mock API** – Untuk menyimulasikan data film
+- **CSS / Tailwind CSS** – Untuk styling antarmuka (tergantung implementasi)
+
+---
+
+## 📂 Struktur Proyek
+
+```bash
+Chill-Cinema-Fe3-Showcases/
+├── public/               # Static files
+├── src/
+│   ├── components/       # Komponen UI (navbar, card, dll)
+│   ├── pages/            # Halaman utama & detail
+│   ├── services/         # API request logic
+│   ├── styles/           # File CSS atau styling
+│   └── App.jsx           # Root komponen utama
+├── .gitignore
+├── package.json
+└── README.md
